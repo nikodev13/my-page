@@ -33,11 +33,9 @@ function Skills() {
 
 function Skill({ name, level }) {
 	return (
-		<div className={`flex flex-wrap`}>
+		<div className={`flex justify-between`}>
 			<div>{name}</div>
-			<div className={`ms-auto text-center`}>
-				{level}
-			</div>
+			<div>{level}</div>
 		</div>
 	);
 }
