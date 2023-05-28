@@ -1,12 +1,12 @@
-import Profile from "./Profile.jsx";
-import Skills from "./Skills.jsx";
-import Languages from "./Languages.jsx";
-import AboutMe from "./AboutMe.jsx";
-import WorkExperience from "./WorkExperience.jsx";
-import Education from "./Education.jsx";
-import Hobbies from "./Hobbies.jsx";
-import Certifications from "./Certifications.jsx";
-import Achievements from "./Achievements.jsx";
+import Profile from "./cv/Profile.jsx";
+import Skills from "./cv/Skills.jsx";
+import Languages from "./cv/Languages.jsx";
+import AboutMe from "./cv/AboutMe.jsx";
+import WorkExperience from "./cv/WorkExperience.jsx";
+import Education from "./cv/Education.jsx";
+import Hobbies from "./cv/Hobbies.jsx";
+import Certifications from "./cv/Certifications.jsx";
+import Achievements from "./cv/Achievements.jsx";
 
 function CurriculumVitae() {
 	return (

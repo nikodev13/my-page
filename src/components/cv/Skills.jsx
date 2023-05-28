@@ -33,7 +33,7 @@ function Skills() {
 
 function Skill({ name, level }) {
 	return (
-		<div className={`flex flex-row`}>
+		<div className={`flex flex-wrap`}>
 			<div>{name}</div>
 			<div className={`ms-auto text-center`}>
 				{level}
