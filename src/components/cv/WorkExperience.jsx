@@ -2,7 +2,7 @@ const workExperience = [
 	{
 		position: 'Trainee',
 		location: 'Kopytkowo, Pomeranian',
-		company: 'Netto Sp. z.o.o',
+		company: 'Netto Sp. z o.o',
 		from: '09/2021',
 		to: '09/2021',
 		description: 'Managing logistic data using SAP ERP and MS Excel.',
@@ -10,7 +10,7 @@ const workExperience = [
 	{
 		position: 'Trainee',
 		location: 'remote',
-		company: 'DGT Sp. z.o.o.',
+		company: 'DGT Sp. z o.o',
 		from: '03/2021',
 		to: '04/2021',
 		description: 'Programming in C++, telecommunications systems.',
@@ -21,12 +21,12 @@ const workExperience = [
 		company: 'SEVENET S.A.',
 		from: '03/2021',
 		to: '04/2021',
-		description: 'Programming in Java (modeling entities), computer network.',
+		description: 'Programming in Java, computer network.',
 	},
 	{
 		position: 'Office worker',
 		location: 'Kopytkowo, Pomeranian',
-		company: 'Netto Sp. z.o.o',
+		company: 'Netto Sp. z o.o',
 		from: '07/2019',
 		to: '08/2019',
 		description: 'Assisting in documentation completion using Microsoft Office.',

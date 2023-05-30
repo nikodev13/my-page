@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes typing-text {
+    from {
+        width: 0;
+    }
+    to {
+        width: 17ch;
+    }
+}
+
+.animate-typing-text {
+    width: fit-content;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing-text 3s steps(17);
+}
+
+@keyframes typing-cursor {
+    from {
+        opacity: 100%;
+    }
+    to {
+        opacity: 25%;
+    }
+}
+
+.animate-typing-cursor {
+    animation: typing-cursor 0.6s ease-in-out alternate-reverse infinite;
+}
+

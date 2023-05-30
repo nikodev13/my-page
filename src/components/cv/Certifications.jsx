@@ -1,12 +1,12 @@
 const certifications = [
 	{
 		name: 'INF.04',
-		description: 'Designing, programming, and testing applications.',
+		description: 'Projektowanie, programowanie i testowanie aplikacji.',
 		date: '01/2023'
 	},
 	{
 		name: 'INF.03',
-		description: 'Creating and administering websites, web applications and databases.',
+		description: 'Tworzenie i administrowanie stronami i aplikacjami internetowymi oraz bazami danych.',
 		date: '06/2021'
 	}
 ]

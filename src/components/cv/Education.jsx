@@ -1,7 +1,7 @@
 const educationLevels = [
 	{
 		school: 'Zespół Szkół Łączności w Gdańsku im. Obrońców Poczty Polskiej',
-		degree: 'Programmer Technician',
+		degree: 'Technik programista',
 		from: '09/2019',
 		to: '04/2023',
 	}
