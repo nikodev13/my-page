@@ -7,6 +7,7 @@ import CVPage from "./CVPage.jsx";
 const router = createHashRouter([
 	{
 		element: <Layout />,
+		errorElement: <Layout />,
 		children: [
 			{
 				path: '/',
@@ -21,6 +22,7 @@ const router = createHashRouter([
 			{
 				path: '*',
 				loader: titleLoader('page not found'),
+				errorElement: <NotFoundPage />,
 				element: <NotFoundPage />
 			}
 		]

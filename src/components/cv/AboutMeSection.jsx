@@ -1,5 +1,5 @@
 
-function AboutMe() {
+function AboutMeSection() {
 	return (
 		<section>
 			<h4 className={`text-xl font-medium mb-2`}>About me</h4>
@@ -13,4 +13,4 @@ function AboutMe() {
 	);
 }
 
-export default AboutMe;
+export default AboutMeSection;

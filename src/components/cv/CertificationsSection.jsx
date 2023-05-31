@@ -1,4 +1,4 @@
-const certifications = [
+const certificationsSection = [
 	{
 		name: 'INF.04',
 		description: 'Projektowanie, programowanie i testowanie aplikacji.',
@@ -11,13 +11,13 @@ const certifications = [
 	}
 ]
 
-function Certifications() {
+function CertificationsSection() {
 	return(
 		<section>
 			<h4 className={`text-xl font-medium mb-2`}>Certifications</h4>
 			<div className={`flex flex-col gap-3 px-2`}>
-				{ certifications &&
-					certifications.map(c => <Certification key={c.name} {...c} />) }
+				{ certificationsSection &&
+					certificationsSection.map(c => <Certification key={c.name} {...c} />) }
 			</div>
 		</section>
 	)
@@ -32,4 +32,4 @@ function Certification({ name, description, date }) {
 	);
 }
 
-export default Certifications;
+export default CertificationsSection;

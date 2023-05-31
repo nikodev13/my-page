@@ -1,4 +1,4 @@
-const skills = [
+const skillsSection = [
 	{
 		name: '.NET Core & C#',
 		level: 'regular',
@@ -21,11 +21,11 @@ const skills = [
 	},
 ]
 
-function Skills() {
+function SkillsSection() {
 	return (
 		<section>
 			<h4 className={`text-xl font-medium mb-2`}>Skills</h4>
-			{ skills && skills.map(s => <Skill key={s.name} {...s} />) }
+			{ skillsSection && skillsSection.map(s => <Skill key={s.name} {...s} />) }
 		</section>
 	);
 }
@@ -40,4 +40,4 @@ function Skill({ name, level }) {
 	);
 }
 
-export default Skills;
+export default SkillsSection;

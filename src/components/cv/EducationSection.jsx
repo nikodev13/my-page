@@ -7,7 +7,7 @@ const educationLevels = [
 	}
 ]
 
-function Education() {
+function EducationSection() {
 	return (
 		<section>
 			<h4 className={`text-xl font-medium mb-2`}>Education</h4>
@@ -31,4 +31,4 @@ function EducationLevel({ school, degree, from, to}) {
 	);
 }
 
-export default Education;
+export default EducationSection;

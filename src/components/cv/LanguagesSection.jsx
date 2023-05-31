@@ -1,4 +1,4 @@
-const languages =[
+const languagesSection =[
 	{
 		name: 'Polish',
 		level: 'native'
@@ -9,12 +9,12 @@ const languages =[
 	}
 ]
 
-function Languages() {
+function LanguagesSection() {
 	return (
 		<section>
 			<h4 className={`text-xl font-medium mb-2`}>Languages</h4>
-			{ languages
-				&& languages.map(l => <Language key={l.name} {...l} />) }
+			{ languagesSection
+				&& languagesSection.map(l => <Language key={l.name} {...l} />) }
 		</section>
 	);
 }
@@ -28,4 +28,4 @@ function Language({ name, level }) {
 	);
 }
 
-export default Languages;
+export default LanguagesSection;

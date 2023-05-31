@@ -1,4 +1,4 @@
-const workExperience = [
+const workExperienceSection = [
 	{
 		position: 'Trainee',
 		location: 'Kopytkowo, Pomeranian',
@@ -33,12 +33,12 @@ const workExperience = [
 	}
 ];
 
-function WorkExperience() {
+function WorkExperienceSection() {
 	return (
 		<section>
 			<h4 className={`text-xl font-medium mb-2`}>Work experience</h4>
 			<div className={`flex flex-col gap-3 px-2 `}>
-				{ workExperience && workExperience.map((we, i) =>
+				{ workExperienceSection && workExperienceSection.map((we, i) =>
 					<Experience key={i} {...we}  />) }
 			</div>
 		</section>
@@ -61,4 +61,4 @@ function Experience({ position, location, company, from, to, description }) {
 	);
 }
 
-export default WorkExperience;
+export default WorkExperienceSection;
