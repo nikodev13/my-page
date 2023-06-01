@@ -1,6 +1,6 @@
 const skillsSection = [
 	{
-		name: '.NET Core & C#',
+		name: '.NET & C#',
 		level: 'regular',
 	},
 	{
@@ -8,16 +8,20 @@ const skillsSection = [
 		level: 'junior',
 	},
 	{
-		name: 'Architecture',
-		level: 'beginner',
-	},
-	{
-		name: 'SQL',
-		level: 'regular',
+		name: 'EF & SQL',
+		level: 'junior',
 	},
 	{
 		name: 'React',
 		level: 'junior',
+	},
+	{
+		name: 'Git',
+		level: 'beginner',
+	},
+	{
+		name: 'Architecture',
+		level: 'beginner',
 	},
 ]
 
