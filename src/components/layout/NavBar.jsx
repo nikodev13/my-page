@@ -18,7 +18,7 @@ function NavBar() {
 		<nav className={`lg:sticky top-0 lg:flex lg:h-screen lg:flex-col text-white relative text-left bg-gray-800 lg:p-2`}>
 			<div className={`before:w-8 lg:before:w-0 p-4 lg:pt-2 flex relative bg-gray-800 z-10`}>
 				<Link to={`/`} className={`text-gray-200 text-xl select-none mx-auto`}>
-					.NET developer
+					my page
 				</Link>
 				<button className={`lg:hidden`} onClick={() => setIsOpen(!isOpen)}>
 					<FontAwesomeIcon icon={faEllipsisVertical} className={`w-8 h-6 align-middle`} />
