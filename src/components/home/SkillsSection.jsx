@@ -14,7 +14,7 @@ const skills = [
 	},
 	{
 		name: 'JavaScript',
-		colors: 'hover:bg-[#f7df1e] hover:text-slate-800 border-[#f7df1e]'
+		colors: 'hover:bg-[#f7df1e] hover:text-gray-800 border-[#f7df1e]'
 	},
 	{
 		name: 'React',
@@ -22,7 +22,7 @@ const skills = [
 	},
 	{
 		name: 'Git',
-		colors: 'hover:bg-[#f14e32] hover:text-slate-800 border-[#f14e32]'
+		colors: 'hover:bg-[#f14e32] hover:text-gray-800 border-[#f14e32]'
 	},
 	{
 		name: 'Rider',
@@ -30,7 +30,7 @@ const skills = [
 	},
 	{
 		name: 'WebStorm',
-		colors: 'hover:bg-lime-500 hover:text-slate-800 border-lime-500'
+		colors: 'hover:bg-lime-500 hover:text-gray-800 border-lime-500'
 	},
 ]
 
@@ -47,7 +47,7 @@ function SkillsSection() {
 	);
 }
 
-function Skill({ name, colors = 'hover:bg-slate-700 border-slate-700' }) {
+function Skill({ name, colors = 'hover:bg-gray-700 border-gray-700' }) {
 	return (
 		<div className={`text-center rounded-lg border-2 transition-all p-5 py-1 ${colors}`}>
 			{ name }

@@ -5,8 +5,8 @@ function NavLink({ to, children }) {
 	const classNameFunc = useCallback(
 		({ isActive }) =>
 			`${ isActive
-				? `bg-slate-700`
-				: `text-slate-300 hover:bg-slate-700`
+				? `bg-gray-700`
+				: `text-gray-300 hover:bg-gray-700`
 			} p-2 rounded-lg transition-colors ease-in`, [])
 
 	return (

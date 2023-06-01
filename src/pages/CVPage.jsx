@@ -11,12 +11,12 @@ import AchievementsSection from "../components/cv/AchievementsSection.jsx";
 function CVPage() {
 	return (
 		<div className={`flex flex-col xl:flex-row`}>
-			<div className={`flex flex-col gap-5 bg-slate-800 text-slate-100 p-5`}>
+			<div className={`flex flex-col gap-5 bg-gray-800 text-gray-100 p-5`}>
 				<ProfileSection />
 				<SkillsSection />
 				<LanguagesSection />
 			</div>
-			<div className={`flex flex-col gap-5 bg-slate-700 text-slate-200 p-5`}>
+			<div className={`flex flex-col gap-5 bg-gray-700 text-gray-200 p-5`}>
 				<AboutMeSection />
 				<WorkExperienceSection/>
 				<EducationSection />

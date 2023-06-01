@@ -4,7 +4,7 @@ import AboutMeSection from "../components/home/AboutMeSection.jsx";
 
 function HomePage() {
 	return (
-		<div className={`flex flex-col gap-4 p-10 bg-slate-800 text-slate-200`}>
+		<div className={`flex flex-col gap-4 p-10 bg-gray-800 text-gray-200`}>
 			<ProfileSection />
 			<SkillsSection />
 			<AboutMeSection />

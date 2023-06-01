@@ -1,13 +1,13 @@
-import { createHashRouter } from "react-router-dom";
+import { createBrowserRouter } from "react-router-dom";
 import Layout from "./Layout.jsx";
 import HomePage from "./HomePage.jsx";
 import NotFoundPage from "./NotFoundPage.jsx";
 import CVPage from "./CVPage.jsx";
 
-const router = createHashRouter([
+const router = createBrowserRouter([
 	{
 		element: <Layout />,
-		errorElement: <Layout />,
+		errorElement: <Layout outlet={<NotFoundPage />} />,
 		children: [
 			{
 				path: '/',
