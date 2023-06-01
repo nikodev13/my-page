@@ -24,7 +24,7 @@ function NavBar() {
 					<FontAwesomeIcon icon={faEllipsisVertical} className={`w-8 h-6 align-middle`} />
 				</button>
 			</div>
-			<div className={`flex flex-col select-none border-y lg:border-b-0 border-blue-600 bg-gray-800 gap-4 lg:h-full w-full p-4 lg:px-2 transition-transform lg:duration-0 absolute lg:static z-[9] left-0 lg:trangray-y-0 ${isOpen ? 'trangray-y-0' : '-trangray-y-[102%]'}`}>
+			<div className={`flex flex-col select-none border-y lg:border-b-0 border-blue-600 bg-gray-800 gap-4 lg:h-full w-full p-4 lg:px-2 transition-transform lg:duration-0 absolute lg:static z-[9] left-0 lg:translate-y-0 ${isOpen ? 'translate-y-0' : '-translate-y-[102%]'}`}>
 				<NavLink to={`/cv`}>
 					<span className="fa-layers fa-fw w-8">
 					    <FontAwesomeIcon icon={faFile} />
